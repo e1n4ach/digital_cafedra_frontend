@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 30px 20px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.icon{
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-picture{
+    width: 25%;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 20%; 
+    display: block;
+    margin: 20px auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+main {
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    text-wrap: balance;
+}
+
+.my-stack{
+    list-style: none;
+    padding-left: 0;
+    margin: 30px 0px;
+}
+
+.my-stack li{
+    background-color: rgba(198, 255, 232, 0.2);
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-networks {
+    display: flex;
+}
+
+.icon {
+    width: 50px;
+}
